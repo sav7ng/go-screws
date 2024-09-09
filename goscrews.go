@@ -1,20 +1,20 @@
 package goscrews
 
 import (
-	"github.com/sav7ng/go-screws.git/aes"
-	"github.com/sav7ng/go-screws.git/array"
-	"github.com/sav7ng/go-screws.git/bean"
-	"github.com/sav7ng/go-screws.git/calendar"
-	"github.com/sav7ng/go-screws.git/catch"
-	"github.com/sav7ng/go-screws.git/convert"
-	"github.com/sav7ng/go-screws.git/emoji"
-	"github.com/sav7ng/go-screws.git/http"
-	"github.com/sav7ng/go-screws.git/ip"
-	"github.com/sav7ng/go-screws.git/mongo"
-	"github.com/sav7ng/go-screws.git/qrcode"
-	"github.com/sav7ng/go-screws.git/random"
-	"github.com/sav7ng/go-screws.git/time"
-	"github.com/sav7ng/go-screws.git/validator"
+	"github.com/sav7ng/go-screws/aes"
+	"github.com/sav7ng/go-screws/array"
+	"github.com/sav7ng/go-screws/bean"
+	"github.com/sav7ng/go-screws/calendar"
+	"github.com/sav7ng/go-screws/catch"
+	"github.com/sav7ng/go-screws/convert"
+	"github.com/sav7ng/go-screws/emoji"
+	"github.com/sav7ng/go-screws/http"
+	"github.com/sav7ng/go-screws/ip"
+	"github.com/sav7ng/go-screws/mongo"
+	"github.com/sav7ng/go-screws/qrcode"
+	"github.com/sav7ng/go-screws/random"
+	"github.com/sav7ng/go-screws/time"
+	"github.com/sav7ng/go-screws/validator"
 )
 
 var (

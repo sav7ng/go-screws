@@ -1,4 +1,4 @@
-module github.com/sav7ng/go-screws.git
+module github.com/sav7ng/go-screws
 
 go 1.19
 
