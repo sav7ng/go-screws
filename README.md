@@ -31,7 +31,7 @@ Get started with go-screws to tighten up your Go code today!
 ## Install & Update Version
 
 ```
-go get -u github.com/sav7ng/go-screws@v0.0.1
+go get -u github.com/sav7ng/go-screws@v0.0.2
 ```
 
 ## Usage
