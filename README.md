@@ -31,13 +31,13 @@ Get started with go-screws to tighten up your Go code today!
 ## Install & Update Version
 
 ```
-go get -u github.com/sav7ng/go-screws.git
+go get -u github.com/sav7ng/go-screws@v0.0.1
 ```
 
 ## Usage
 
 ```
-import goscrews "github.com/sav7ng/go-screws.git"
+import goscrews "github.com/sav7ng/go-screws"
 
 base64, err := goscrews.QRCodeTool.GenerateQrcodeToBytes("saving", 512)
 ```
