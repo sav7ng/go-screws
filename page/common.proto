@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package common;
+
+option go_package = "github.com/sav7ng/go-screws/common";
+
+// 分页请求结构
+message PageRequest {
+    int64 page = 1;      // 当前页码
+    int64 page_size = 2; // 每页大小
+}
+
+// 分页响应结构
+message PageReply {
+    int64 total_count = 1;    // 总记录数
+    int64 page = 2;           // 当前页码
+    int64 page_size = 3;      // 每页大小
+}
