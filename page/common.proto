@@ -7,7 +7,7 @@ option go_package = "github.com/sav7ng/go-screws/page;common";
 // protoc --proto_path=./page --go_out=paths=source_relative:./page ./page/common.proto
 // 分页响应结构
 message Page {
-    int64 total_count = 1;    // 总记录数
-    int64 page = 2;           // 当前页码
-    int64 page_size = 3;      // 每页大小
+  int64 total_count = 1;    // 总记录数
+  int64 page = 2;           // 当前页码
+  int64 size = 3;           // 每页大小
 }
