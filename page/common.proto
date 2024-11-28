@@ -4,15 +4,9 @@ package common;
 
 option go_package = "github.com/sav7ng/go-screws/page;common";
 
-// protoc --proto_path=./page --go_out=paths=source_relative:./page
-// 分页请求结构
-message PageRequest {
-    int64 page = 1;      // 当前页码
-    int64 page_size = 2; // 每页大小
-}
-
+// protoc --proto_path=./page --go_out=paths=source_relative:./page ./page/common.proto
 // 分页响应结构
-message PageReply {
+message Page {
     int64 total_count = 1;    // 总记录数
     int64 page = 2;           // 当前页码
     int64 page_size = 3;      // 每页大小
